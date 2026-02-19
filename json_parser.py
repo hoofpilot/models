@@ -10,14 +10,13 @@ def find_metadata_files(root):
     if "metadata.json" in filenames:
       yield os.path.join(dirpath, "metadata.json")
 
-def make_model_url(folder, file_name):
-  # Updated to use GitHub raw content URL for hoofpilot/models repository
-  base = "https://raw.githubusercontent.com/hoofpilot/models/master/recompiled/"
-  safe_folder = urllib.parse.quote(folder)
+def make_model_url(file_name):
+  # HuggingFace LFS repo serves all compiled model binaries from the recompiled/ root
+  base = "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/"
   safe_file = urllib.parse.quote(file_name)
-  return f"{base}{safe_folder}/{safe_file}"
+  return f"{base}{safe_file}"
 
-def update_bundle_models(bundle, meta_models, folder):
+def update_bundle_models(bundle, meta_models):
   filtered_meta_models = [
     m for m in meta_models
     if "big" not in m["artifact"]["file_name"].lower()
@@ -29,10 +28,10 @@ def update_bundle_models(bundle, meta_models, folder):
       continue
     model["artifact"]["file_name"] = meta_model["artifact"]["file_name"]
     model["artifact"]["download_uri"]["sha256"] = meta_model["artifact"]["download_uri"]["sha256"]
-    model["artifact"]["download_uri"]["url"] = make_model_url(folder, meta_model["artifact"]["file_name"])
+    model["artifact"]["download_uri"]["url"] = make_model_url(meta_model["artifact"]["file_name"])
     model["metadata"]["file_name"] = meta_model["metadata"]["file_name"]
     model["metadata"]["download_uri"]["sha256"] = meta_model["metadata"]["download_uri"]["sha256"]
-    model["metadata"]["download_uri"]["url"] = make_model_url(folder, meta_model["metadata"]["file_name"])
+    model["metadata"]["download_uri"]["url"] = make_model_url(meta_model["metadata"]["file_name"])
 
 def collapse_overrides(json_text):
   def replacer(m):
@@ -93,8 +92,7 @@ def main():
     with open(meta_path, "r", encoding="utf-8") as f:
       meta = json.load(f)
     ref = meta["ref"]
-    folder = os.path.basename(os.path.dirname(meta_path))
-    short_name = meta.get("short_name", folder).upper()
+    short_name = meta.get("short_name", "UNKNOWN").upper()
 
     if ref not in ref_to_bundle:
       print(f"Adding new bundle for ref: {ref}")
@@ -128,7 +126,7 @@ def main():
 
     bundle = ref_to_bundle[ref]
     bundle["short_name"] = bundle["short_name"].upper()
-    update_bundle_models(bundle, meta["models"], folder)
+    update_bundle_models(bundle, meta["models"])
     bundle["display_name"] = meta.get("display_name", bundle["display_name"])
     bundle["is_20hz"] = meta.get("is_20hz", bundle["is_20hz"])
     bundle["build_time"] = meta.get("build_time", bundle.get("build_time"))
