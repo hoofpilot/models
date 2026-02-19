@@ -12,7 +12,7 @@ def find_metadata_files(root):
 
 def make_model_url(category, folder, file_name):
   # Layout: models/{category}/{short_name}/{file_name}
-  base = "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/"
+  base = "https://huggingface.co/datasets/hoofpilot/models-lfs/resolve/main/models/"
   return f"{base}{urllib.parse.quote(category)}/{urllib.parse.quote(folder)}/{urllib.parse.quote(file_name)}"
 
 def update_bundle_models(bundle, meta_models, category, folder):
