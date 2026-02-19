@@ -10,14 +10,14 @@ def find_metadata_files(root):
     if "metadata.json" in filenames:
       yield os.path.join(dirpath, "metadata.json")
 
-def make_model_url(recompiled_dir, folder, file_name):
+def make_model_url(folder, file_name):
   # Updated to use GitHub raw content URL for hoofpilot/models repository
-  base = f"https://raw.githubusercontent.com/hoofpilot/models/master/recompiled/{recompiled_dir}/"
+  base = "https://raw.githubusercontent.com/hoofpilot/models/master/recompiled/"
   safe_folder = urllib.parse.quote(folder)
   safe_file = urllib.parse.quote(file_name)
   return f"{base}{safe_folder}/{safe_file}"
 
-def update_bundle_models(bundle, meta_models, folder, recompiled_dir):
+def update_bundle_models(bundle, meta_models, folder):
   filtered_meta_models = [
     m for m in meta_models
     if "big" not in m["artifact"]["file_name"].lower()
@@ -29,10 +29,10 @@ def update_bundle_models(bundle, meta_models, folder, recompiled_dir):
       continue
     model["artifact"]["file_name"] = meta_model["artifact"]["file_name"]
     model["artifact"]["download_uri"]["sha256"] = meta_model["artifact"]["download_uri"]["sha256"]
-    model["artifact"]["download_uri"]["url"] = make_model_url(recompiled_dir, folder, meta_model["artifact"]["file_name"])
+    model["artifact"]["download_uri"]["url"] = make_model_url(folder, meta_model["artifact"]["file_name"])
     model["metadata"]["file_name"] = meta_model["metadata"]["file_name"]
     model["metadata"]["download_uri"]["sha256"] = meta_model["metadata"]["download_uri"]["sha256"]
-    model["metadata"]["download_uri"]["url"] = make_model_url(recompiled_dir, folder, meta_model["metadata"]["file_name"])
+    model["metadata"]["download_uri"]["url"] = make_model_url(folder, meta_model["metadata"]["file_name"])
 
 def collapse_overrides(json_text):
   def replacer(m):
@@ -81,8 +81,6 @@ def main():
   parser.add_argument("--sort-by-date", required=False, action="store_true", help="Sort bundles by date in display_name")
   parser.add_argument("--tinygrad-ref", required=False, type=str, default=None, help="Set tinygrad_ref top-level key in json")
   args = parser.parse_args()
-  recompiled_dir_name = os.path.basename(os.path.normpath(args.recompiled_dir))
-
   with open(args.json_path, "r", encoding="utf-8") as f:
     driving_models_json = json.load(f)
 
@@ -130,7 +128,7 @@ def main():
 
     bundle = ref_to_bundle[ref]
     bundle["short_name"] = bundle["short_name"].upper()
-    update_bundle_models(bundle, meta["models"], folder, recompiled_dir_name)
+    update_bundle_models(bundle, meta["models"], folder)
     bundle["display_name"] = meta.get("display_name", bundle["display_name"])
     bundle["is_20hz"] = meta.get("is_20hz", bundle["is_20hz"])
     bundle["build_time"] = meta.get("build_time", bundle.get("build_time"))
