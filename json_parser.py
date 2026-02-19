@@ -10,14 +10,12 @@ def find_metadata_files(root):
     if "metadata.json" in filenames:
       yield os.path.join(dirpath, "metadata.json")
 
-def make_model_url(folder, file_name):
-  # Each model lives in its own subfolder under recompiled/ on the HuggingFace LFS repo
-  base = "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/"
-  safe_folder = urllib.parse.quote(folder)
-  safe_file = urllib.parse.quote(file_name)
-  return f"{base}{safe_folder}/{safe_file}"
+def make_model_url(category, folder, file_name):
+  # Layout: models/{category}/{short_name}/{file_name}
+  base = "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/"
+  return f"{base}{urllib.parse.quote(category)}/{urllib.parse.quote(folder)}/{urllib.parse.quote(file_name)}"
 
-def update_bundle_models(bundle, meta_models, folder):
+def update_bundle_models(bundle, meta_models, category, folder):
   filtered_meta_models = [
     m for m in meta_models
     if "big" not in m["artifact"]["file_name"].lower()
@@ -29,10 +27,10 @@ def update_bundle_models(bundle, meta_models, folder):
       continue
     model["artifact"]["file_name"] = meta_model["artifact"]["file_name"]
     model["artifact"]["download_uri"]["sha256"] = meta_model["artifact"]["download_uri"]["sha256"]
-    model["artifact"]["download_uri"]["url"] = make_model_url(folder, meta_model["artifact"]["file_name"])
+    model["artifact"]["download_uri"]["url"] = make_model_url(category, folder, meta_model["artifact"]["file_name"])
     model["metadata"]["file_name"] = meta_model["metadata"]["file_name"]
     model["metadata"]["download_uri"]["sha256"] = meta_model["metadata"]["download_uri"]["sha256"]
-    model["metadata"]["download_uri"]["url"] = make_model_url(folder, meta_model["metadata"]["file_name"])
+    model["metadata"]["download_uri"]["url"] = make_model_url(category, folder, meta_model["metadata"]["file_name"])
 
 def collapse_overrides(json_text):
   def replacer(m):
@@ -71,7 +69,7 @@ def parse_date(date_str):
 def main():
   parser = argparse.ArgumentParser(description="Update driving_models JSON with new recompiled models")
   parser.add_argument("--json-path", required=True, help="Path to driving_models_vX.json")
-  parser.add_argument("--recompiled-dir", required=True, help="Path to recompiledX directory")
+  parser.add_argument("--recompiled-dir", required=True, help="Path to models/ directory (contains {category}/{short_name}/ subfolders)")
   parser.add_argument("--model-folder", required=False, help="Folder name for new model (overrides auto-detect)")
   parser.add_argument("--lat", required=False, type=str, default=".0", help="Lat smooth (decimal, e.g. 0.1)")
   parser.add_argument("--long", required=False, type=str, default=".3", help="long smooth (decimal, e.g. 0.3)")
@@ -93,12 +91,14 @@ def main():
     with open(meta_path, "r", encoding="utf-8") as f:
       meta = json.load(f)
     ref = meta["ref"]
+    # Directory layout: models/{category}/{short_name}/metadata.json
     folder = os.path.basename(os.path.dirname(meta_path))
+    category = os.path.basename(os.path.dirname(os.path.dirname(meta_path)))
     short_name = meta.get("short_name", folder).upper()
 
     if ref not in ref_to_bundle:
       print(f"Adding new bundle for ref: {ref}")
-      folder_key = args.model_folder or f"{short_name.split()[0].upper()} Models"
+      folder_key = args.model_folder or category
       index = max([bundle.get("index", 0) for bundle in driving_models_json["bundles"] if isinstance(bundle.get("index", 0), int)], default=0) + 1
       fallback_generation, fallback_version = get_generation_and_selector(short_name, driving_models_json["bundles"])
       generation = args.generation if args.generation is not None else fallback_generation
@@ -128,7 +128,7 @@ def main():
 
     bundle = ref_to_bundle[ref]
     bundle["short_name"] = bundle["short_name"].upper()
-    update_bundle_models(bundle, meta["models"], folder)
+    update_bundle_models(bundle, meta["models"], category, folder)
     bundle["display_name"] = meta.get("display_name", bundle["display_name"])
     bundle["is_20hz"] = meta.get("is_20hz", bundle["is_20hz"])
     bundle["build_time"] = meta.get("build_time", bundle.get("build_time"))
