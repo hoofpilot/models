@@ -9,27 +9,23 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 0,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "3",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_chv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CHV2/supercombo_chv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/CHV2/supercombo_chv2_tinygrad.pkl",
               "sha256": "fa3440e619c4a67277af1b5c60731b4cfd50efe7b6a8976af9521a9661c5d95a"
             }
           },
           "metadata": {
             "file_name": "supercombo_chv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CHV2/supercombo_chv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/CHV2/supercombo_chv2_metadata.pkl",
               "sha256": "2152a3984f71d7d9acc876d7a3d219f7d676457dae8a2da93f7166b26201c22c"
             }
           }
@@ -45,27 +41,23 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 1,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "3",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_rh_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CHLR/supercombo_rh_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/CHLR/supercombo_rh_tinygrad.pkl",
               "sha256": "edb4a758aec027788296264f5ac63100da89878db756f12f190fd5a4e04fa02b"
             }
           },
           "metadata": {
             "file_name": "supercombo_rh_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CHLR/supercombo_rh_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/CHLR/supercombo_rh_metadata.pkl",
               "sha256": "2152a3984f71d7d9acc876d7a3d219f7d676457dae8a2da93f7166b26201c22c"
             }
           }
@@ -81,27 +73,23 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 2,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "3",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_da_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DA/supercombo_da_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/DA/supercombo_da_tinygrad.pkl",
               "sha256": "6d6e75ffb6f1ae149d9ed821f636f0c14fd66ab2588a3f576f446dd634698bd8"
             }
           },
           "metadata": {
             "file_name": "supercombo_da_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DA/supercombo_da_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/DA/supercombo_da_metadata.pkl",
               "sha256": "2152a3984f71d7d9acc876d7a3d219f7d676457dae8a2da93f7166b26201c22c"
             }
           }
@@ -117,27 +105,23 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 3,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "4",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_wd40_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WD40/supercombo_wd40_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/WD40/supercombo_wd40_tinygrad.pkl",
               "sha256": "a163f5a2ae1ef391914847d140f9aace24df2965efd1293e62cf0c92c9c4a11a"
             }
           },
           "metadata": {
             "file_name": "supercombo_wd40_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WD40/supercombo_wd40_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/WD40/supercombo_wd40_metadata.pkl",
               "sha256": "67e6b5b2e3ea6ce01687e98d2c8c1fb789af164549f0c61e980408c1ba6dc92f"
             }
           }
@@ -153,27 +137,23 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 4,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "4",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_ndv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDV2/supercombo_ndv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/NDV2/supercombo_ndv2_tinygrad.pkl",
               "sha256": "7258a6c2e54b083b5bca3014bfca405abc3a3218212490167c0c325c26c73bbf"
             }
           },
           "metadata": {
             "file_name": "supercombo_ndv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDV2/supercombo_ndv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/NDV2/supercombo_ndv2_metadata.pkl",
               "sha256": "67e6b5b2e3ea6ce01687e98d2c8c1fb789af164549f0c61e980408c1ba6dc92f"
             }
           }
@@ -189,27 +169,23 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 5,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "5",
-      "overrides": {
-        "folder": "Legacy Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Legacy Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "supercombo",
           "artifact": {
             "file_name": "supercombo_nd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDV3/supercombo_nd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/NDV3/supercombo_nd_tinygrad.pkl",
               "sha256": "f511d1b210b478b5e0702f116928e4df7ec0a0d4b5db89ce5215d11880ee088a"
             }
           },
           "metadata": {
             "file_name": "supercombo_nd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDV3/supercombo_nd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Legacy%20Models/NDV3/supercombo_nd_metadata.pkl",
               "sha256": "f86881d34d5b9c8080a51c7d76782f0037a379629edfd7caf6e5871c6f42f23a"
             }
           }
@@ -225,28 +201,24 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 6,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "10",
       "build_time": "2026-02-12T20:52:31Z",
-      "overrides": {
-        "folder": "Release Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "Release Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_fof_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FOF/driving_vision_fof_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/FOF/driving_vision_fof_tinygrad.pkl",
               "sha256": "ce13ea9c101725e5baa205354fecbc9777b0ee27141ceec69e4a31fe98cb8155"
             }
           },
           "metadata": {
             "file_name": "driving_vision_fof_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FOF/driving_vision_fof_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/FOF/driving_vision_fof_metadata.pkl",
               "sha256": "9378177d95c001f0a754a8025b06931af4773dcbd0d6f7cdb10198d8a3633fbc"
             }
           }
@@ -256,14 +228,14 @@
           "artifact": {
             "file_name": "driving_policy_fof_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FOF/driving_policy_fof_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/FOF/driving_policy_fof_tinygrad.pkl",
               "sha256": "fe0f7aa72dfdc023cf8603226b544562c964917863bc32ef2d1c5c8cb7320eff"
             }
           },
           "metadata": {
             "file_name": "driving_policy_fof_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FOF/driving_policy_fof_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/FOF/driving_policy_fof_metadata.pkl",
               "sha256": "6ef65f96fb93a050fdd7649c22e4b0e197aa73bb6a26f0fd2f437f6a40905585"
             }
           }
@@ -278,28 +250,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 8,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T22:54:27Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_tr7_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR7/driving_vision_tr7_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR7/driving_vision_tr7_tinygrad.pkl",
               "sha256": "fda0d38c7009048d7fd9c310342740aba846cf48a514102abee854d027bdae3c"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tr7_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR7/driving_vision_tr7_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR7/driving_vision_tr7_metadata.pkl",
               "sha256": "6cbd167c1c1d80a7b73687518d91292d7f2c2e63bae76af171ee6c7dea477261"
             }
           }
@@ -309,14 +277,14 @@
           "artifact": {
             "file_name": "driving_policy_tr7_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR7/driving_policy_tr7_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR7/driving_policy_tr7_tinygrad.pkl",
               "sha256": "4b51506a3ae6b128fce05ddd2dafe1155184e71599ab3dca9d3fa5c902f4c3dc"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tr7_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR7/driving_policy_tr7_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR7/driving_policy_tr7_metadata.pkl",
               "sha256": "b966eadc55529e449c684e0dc1c21daa4461c8a5c106ba57b7e4a6d8627c2906"
             }
           }
@@ -331,28 +299,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 9,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T20:43:09Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_sgo_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SGO/driving_vision_sgo_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SGO/driving_vision_sgo_tinygrad.pkl",
               "sha256": "d377df8d9b0cc0bab7f1c58c72fb54476ebf63de0498bed2b7ebf4948eec2309"
             }
           },
           "metadata": {
             "file_name": "driving_vision_sgo_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SGO/driving_vision_sgo_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SGO/driving_vision_sgo_metadata.pkl",
               "sha256": "6cbd167c1c1d80a7b73687518d91292d7f2c2e63bae76af171ee6c7dea477261"
             }
           }
@@ -362,14 +326,14 @@
           "artifact": {
             "file_name": "driving_policy_sgo_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SGO/driving_policy_sgo_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SGO/driving_policy_sgo_tinygrad.pkl",
               "sha256": "ba9372f81fa8a4c96fa256f66422184884cf0709a18b644478fa04449b2118db"
             }
           },
           "metadata": {
             "file_name": "driving_policy_sgo_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SGO/driving_policy_sgo_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SGO/driving_policy_sgo_metadata.pkl",
               "sha256": "f2e3c6ca9b26f4e47c81e615431b335223be3a64de834f82943e513cf03472e8"
             }
           }
@@ -384,28 +348,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 10,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "10",
       "build_time": "2026-02-12T22:02:59Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_kd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/KD/driving_vision_kd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/KD/driving_vision_kd_tinygrad.pkl",
               "sha256": "7079b0c4af2dfe3a114076765e7617188abf200a67049521feb6b40bc259b664"
             }
           },
           "metadata": {
             "file_name": "driving_vision_kd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/KD/driving_vision_kd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/KD/driving_vision_kd_metadata.pkl",
               "sha256": "7aa3f93ec13cc655827f93541266c63e53a88ec834c076dd177e904c6b5e8ded"
             }
           }
@@ -415,14 +375,14 @@
           "artifact": {
             "file_name": "driving_policy_kd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/KD/driving_policy_kd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/KD/driving_policy_kd_tinygrad.pkl",
               "sha256": "afe461ce9348d620e0d4012959ea7676452bc01e5164ce51145a723adcec5713"
             }
           },
           "metadata": {
             "file_name": "driving_policy_kd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/KD/driving_policy_kd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/KD/driving_policy_kd_metadata.pkl",
               "sha256": "ebbf3a9ebf811fbb4fdf88c91ac9642ce8324a74f70624c65e7ca28b0fa02db3"
             }
           }
@@ -437,28 +397,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 11,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "10",
       "build_time": "2026-02-12T19:29:22Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_lcd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LD/driving_vision_lcd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LD/driving_vision_lcd_tinygrad.pkl",
               "sha256": "6aa6285e5550f02b465a21126770f1665b5e3e059a78a448b4e1888937f64be6"
             }
           },
           "metadata": {
             "file_name": "driving_vision_lcd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LD/driving_vision_lcd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LD/driving_vision_lcd_metadata.pkl",
               "sha256": "cfa876ccc22d81512bbecba2a91e430828c853feada4599cda8f3fb5d1ba3e9c"
             }
           }
@@ -468,14 +424,14 @@
           "artifact": {
             "file_name": "driving_policy_lcd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LD/driving_policy_lcd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LD/driving_policy_lcd_tinygrad.pkl",
               "sha256": "bcb51a4618950c862412370c56b22fdfee10358706e45f0848e417dd9a41d1d4"
             }
           },
           "metadata": {
             "file_name": "driving_policy_lcd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LD/driving_policy_lcd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LD/driving_policy_lcd_metadata.pkl",
               "sha256": "65a97081f7aedcebf3a2e083d316631863253d44ab854c8c0938300845c05ef2"
             }
           }
@@ -490,28 +446,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 12,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "10",
       "build_time": "2026-02-12T19:25:07Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".0",
-        "long": ".0"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".0", "long": ".0" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_vfof_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/VFOF/driving_vision_vfof_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/VFOF/driving_vision_vfof_tinygrad.pkl",
               "sha256": "35024f269c0bca2f06a9d56556587e9a46db7a6ed6735c93434396e0ec89702e"
             }
           },
           "metadata": {
             "file_name": "driving_vision_vfof_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/VFOF/driving_vision_vfof_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/VFOF/driving_vision_vfof_metadata.pkl",
               "sha256": "cfa876ccc22d81512bbecba2a91e430828c853feada4599cda8f3fb5d1ba3e9c"
             }
           }
@@ -521,14 +473,14 @@
           "artifact": {
             "file_name": "driving_policy_vfof_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/VFOF/driving_policy_vfof_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/VFOF/driving_policy_vfof_tinygrad.pkl",
               "sha256": "709e6c2ba5f9770cf89b673139d89cd206d102c9aded8d11ab7dbf3f2dfa9a56"
             }
           },
           "metadata": {
             "file_name": "driving_policy_vfof_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/VFOF/driving_policy_vfof_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/VFOF/driving_policy_vfof_metadata.pkl",
               "sha256": "fd3a516bb2ac572c53b0d60693898b020e7df77f255028bf1ee1dca7c1bf73dc"
             }
           }
@@ -543,28 +495,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 13,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T22:17:38Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tr13_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR13/driving_policy_tr13_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR13/driving_policy_tr13_tinygrad.pkl",
               "sha256": "4edf5c08873fcc05b05c826dac3e222353b2326535eca0e74e40ef2627cc5e00"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tr13_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR13/driving_policy_tr13_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR13/driving_policy_tr13_metadata.pkl",
               "sha256": "55cef49b910f22163f95dab47525ebaaddc9e1cd51f2d8a82f781fdfd9a3d69f"
             }
           }
@@ -574,14 +522,14 @@
           "artifact": {
             "file_name": "driving_vision_tr13_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR13/driving_vision_tr13_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR13/driving_vision_tr13_tinygrad.pkl",
               "sha256": "7ae91bb5e69d4095a7b7902ee3ecf9267f65087cc24d6752acb120fd53ea9c6e"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tr13_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR13/driving_vision_tr13_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR13/driving_vision_tr13_metadata.pkl",
               "sha256": "4ac79339651fe5d1e1cfe4c9ff51402d87ab37746bfad41cc3f714cef4d845e4"
             }
           }
@@ -596,28 +544,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 14,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T20:04:33Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_atr_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/AT/driving_policy_atr_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/AT/driving_policy_atr_tinygrad.pkl",
               "sha256": "c7ba989bd76a3dc3406d075a7c20f93ef94a0e4b37d178e1f976f4dfaeb53541"
             }
           },
           "metadata": {
             "file_name": "driving_policy_atr_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/AT/driving_policy_atr_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/AT/driving_policy_atr_metadata.pkl",
               "sha256": "67ecdf1c8c34b986fcb45a2297397a26447972c9d22e593e0ae3df155c3e12a5"
             }
           }
@@ -627,14 +571,14 @@
           "artifact": {
             "file_name": "driving_vision_atr_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/AT/driving_vision_atr_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/AT/driving_vision_atr_tinygrad.pkl",
               "sha256": "0f096eab76f12b4465ff486682f20cec4653636c68a0cd2a6266634479f87c9e"
             }
           },
           "metadata": {
             "file_name": "driving_vision_atr_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/AT/driving_vision_atr_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/AT/driving_vision_atr_metadata.pkl",
               "sha256": "4ac79339651fe5d1e1cfe4c9ff51402d87ab37746bfad41cc3f714cef4d845e4"
             }
           }
@@ -649,28 +593,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 15,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T22:22:00Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tr14_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR14/driving_policy_tr14_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR14/driving_policy_tr14_tinygrad.pkl",
               "sha256": "f319c30d4cea4bb23bb89f6cff35b7836ce06d5d233be98bf30aa00dd62ecce8"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tr14_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR14/driving_policy_tr14_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR14/driving_policy_tr14_metadata.pkl",
               "sha256": "899712e7e2e6da9a34e10c1af8dc92b2c035473198e5c1ff78620a1d03f250e9"
             }
           }
@@ -680,14 +620,14 @@
           "artifact": {
             "file_name": "driving_vision_tr14_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR14/driving_vision_tr14_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR14/driving_vision_tr14_tinygrad.pkl",
               "sha256": "29cc1bb95e59d2cdf39ae4e65cd1b5b32a0359c6fcb8fc7f1977680321f7e8f2"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tr14_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR14/driving_vision_tr14_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR14/driving_vision_tr14_metadata.pkl",
               "sha256": "4ac79339651fe5d1e1cfe4c9ff51402d87ab37746bfad41cc3f714cef4d845e4"
             }
           }
@@ -702,28 +642,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 16,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:26:53Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_spd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPD/driving_policy_spd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SPD/driving_policy_spd_tinygrad.pkl",
               "sha256": "778c66a15f6d09a64f47bc91f15010283aa20b211e2108f0bf699d4fa3a85a67"
             }
           },
           "metadata": {
             "file_name": "driving_policy_spd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPD/driving_policy_spd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SPD/driving_policy_spd_metadata.pkl",
               "sha256": "9368c20af0f1ef130c4465af1f988036814f45e024bc5447a3f552ab108b485d"
             }
           }
@@ -733,14 +669,14 @@
           "artifact": {
             "file_name": "driving_vision_spd_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPD/driving_vision_spd_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SPD/driving_vision_spd_tinygrad.pkl",
               "sha256": "fd8f08d311d54c575fea9b506b35f768ddd84274ad84b0693eefb3fe6603ca35"
             }
           },
           "metadata": {
             "file_name": "driving_vision_spd_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPD/driving_vision_spd_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/SPD/driving_vision_spd_metadata.pkl",
               "sha256": "046025a8a34d2eb9be88d7961f46038e10d19c96a57bbd9ae430f82deddee8ff"
             }
           }
@@ -755,28 +691,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 17,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T21:05:26Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_dtrv5_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV5/driving_policy_dtrv5_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/DTRV5/driving_policy_dtrv5_tinygrad.pkl",
               "sha256": "5d4b1862e6c82dc1f987fdd7eafdd69b6706e55b27b3a5b8010420e283b7a5a6"
             }
           },
           "metadata": {
             "file_name": "driving_policy_dtrv5_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV5/driving_policy_dtrv5_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/DTRV5/driving_policy_dtrv5_metadata.pkl",
               "sha256": "a06d2431e0534df80266493f590bdba283d75dacc4ec1e25513eaca3b6108dc8"
             }
           }
@@ -786,14 +718,14 @@
           "artifact": {
             "file_name": "driving_vision_dtrv5_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV5/driving_vision_dtrv5_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/DTRV5/driving_vision_dtrv5_tinygrad.pkl",
               "sha256": "77daf861c8fbb706773de29ac0ade22d19a362fdc0a51f410ae261d876fa6357"
             }
           },
           "metadata": {
             "file_name": "driving_vision_dtrv5_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV5/driving_vision_dtrv5_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/DTRV5/driving_vision_dtrv5_metadata.pkl",
               "sha256": "4ac79339651fe5d1e1cfe4c9ff51402d87ab37746bfad41cc3f714cef4d845e4"
             }
           }
@@ -808,28 +740,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 18,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T20:30:17Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tr15_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR15/driving_policy_tr15_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR15/driving_policy_tr15_tinygrad.pkl",
               "sha256": "f06a8a7118012b7f86cd53daf2dc8ad4bcdb38c5f98abd73f1a84b2d2fd50de5"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tr15_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR15/driving_policy_tr15_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR15/driving_policy_tr15_metadata.pkl",
               "sha256": "284578787a583f02c091968633a2a6d04597133fa52c1651648fcdfd9f187096"
             }
           }
@@ -839,14 +767,14 @@
           "artifact": {
             "file_name": "driving_vision_tr15_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR15/driving_vision_tr15_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR15/driving_vision_tr15_tinygrad.pkl",
               "sha256": "b76569b4933dedc0d45c4ad34dd2c40fc41760162a1d43a784d48d4e68ab9dcd"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tr15_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR15/driving_vision_tr15_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR15/driving_vision_tr15_metadata.pkl",
               "sha256": "4ac79339651fe5d1e1cfe4c9ff51402d87ab37746bfad41cc3f714cef4d845e4"
             }
           }
@@ -861,28 +789,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 19,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T22:50:08Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_ltr14_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LTR14/driving_policy_ltr14_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LTR14/driving_policy_ltr14_tinygrad.pkl",
               "sha256": "35be9d01930640b3807cef9d77f0c0871b6b2bd15026af2ac7644700ee074c52"
             }
           },
           "metadata": {
             "file_name": "driving_policy_ltr14_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LTR14/driving_policy_ltr14_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LTR14/driving_policy_ltr14_metadata.pkl",
               "sha256": "2e2cd1c0d0d29bda12ecefadabd16a9478939090e02caa6b8cdee9aff6b3cc71"
             }
           }
@@ -892,14 +816,14 @@
           "artifact": {
             "file_name": "driving_vision_ltr14_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LTR14/driving_vision_ltr14_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LTR14/driving_vision_ltr14_tinygrad.pkl",
               "sha256": "e36087b807fe002ceaa8ce14c8b5ee6f289cedfd2bfb0968dab5b0a20e2fe095"
             }
           },
           "metadata": {
             "file_name": "driving_vision_ltr14_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/LTR14/driving_vision_ltr14_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/LTR14/driving_vision_ltr14_metadata.pkl",
               "sha256": "cd99e14e46b5dfa60a2b539d74371052ecb4cb5a9907a5b22a8e12b179b1f539"
             }
           }
@@ -914,28 +838,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 20,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T21:14:04Z",
-      "overrides": {
-        "folder": "2025 Pre World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 Pre World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tr16_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR16/driving_policy_tr16_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR16/driving_policy_tr16_tinygrad.pkl",
               "sha256": "ef3d753c585c14c06d033120bfc120a6f4cb5e11e3be7454e3be15079cd32a0b"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tr16_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR16/driving_policy_tr16_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR16/driving_policy_tr16_metadata.pkl",
               "sha256": "b887afb5a424012b315f29f66a550e3f01a336a1536c211eb843b7dcf5c55b25"
             }
           }
@@ -945,14 +865,14 @@
           "artifact": {
             "file_name": "driving_vision_tr16_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR16/driving_vision_tr16_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR16/driving_vision_tr16_tinygrad.pkl",
               "sha256": "1f77e585deb3e5f7523aa2133acf733e377a79515ac73ab8689eae8bc2062dfe"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tr16_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TR16/driving_vision_tr16_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20Pre%20World%20Models/TR16/driving_vision_tr16_metadata.pkl",
               "sha256": "cd99e14e46b5dfa60a2b539d74371052ecb4cb5a9907a5b22a8e12b179b1f539"
             }
           }
@@ -967,28 +887,24 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 21,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "11",
       "build_time": "2026-02-12T21:49:15Z",
-      "overrides": {
-        "folder": "Release Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Release Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_sl2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL2/driving_vision_sl2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/SL2/driving_vision_sl2_tinygrad.pkl",
               "sha256": "e52730e737678ae085821cccc3c215dd148a60c4b1a6aa7a52a8a2ac38d143db"
             }
           },
           "metadata": {
             "file_name": "driving_vision_sl2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL2/driving_vision_sl2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/SL2/driving_vision_sl2_metadata.pkl",
               "sha256": "08bf5d9a05096d0271065089a4ec2cf66d02dcc584b74a25d7c371b24d99aa6d"
             }
           }
@@ -998,14 +914,14 @@
           "artifact": {
             "file_name": "driving_policy_sl2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL2/driving_policy_sl2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/SL2/driving_policy_sl2_tinygrad.pkl",
               "sha256": "861afeb5fba54fbd1f99f9524d3b1dcc009ea19078e8e6b431ded01c9c8233c0"
             }
           },
           "metadata": {
             "file_name": "driving_policy_sl2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL2/driving_policy_sl2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/SL2/driving_policy_sl2_metadata.pkl",
               "sha256": "47c81d746937e1103d968965d14a1e369893f841b613c88ffc31f605bffe2678"
             }
           }
@@ -1020,28 +936,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 22,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:38:53Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_sl3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL3/driving_vision_sl3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SL3/driving_vision_sl3_tinygrad.pkl",
               "sha256": "54587a5435d800279e6436936010157d9e1781e8a7c35b170bebf5c6c179c8f9"
             }
           },
           "metadata": {
             "file_name": "driving_vision_sl3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL3/driving_vision_sl3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SL3/driving_vision_sl3_metadata.pkl",
               "sha256": "08bf5d9a05096d0271065089a4ec2cf66d02dcc584b74a25d7c371b24d99aa6d"
             }
           }
@@ -1051,14 +963,14 @@
           "artifact": {
             "file_name": "driving_policy_sl3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL3/driving_policy_sl3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SL3/driving_policy_sl3_tinygrad.pkl",
               "sha256": "6570ac04ed4d7d7e3ddee900284defbe0cf96b898b2e14f59f8364d5b94a9660"
             }
           },
           "metadata": {
             "file_name": "driving_policy_sl3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SL3/driving_policy_sl3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SL3/driving_policy_sl3_metadata.pkl",
               "sha256": "2ca2b53a138a1ca92ca6611144bf1a12f1a201145e672cc4d0731e47f360d3a9"
             }
           }
@@ -1073,28 +985,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 23,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:41:58Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_dtrv6_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV6/driving_policy_dtrv6_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DTRV6/driving_policy_dtrv6_tinygrad.pkl",
               "sha256": "2aeadafd14c3b9df6871a33729b22f09c32d211891876a021d7b38020fb3d00e"
             }
           },
           "metadata": {
             "file_name": "driving_policy_dtrv6_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV6/driving_policy_dtrv6_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DTRV6/driving_policy_dtrv6_metadata.pkl",
               "sha256": "96eb774cf8def2ae2d2b729ef055881af52d9a232a1ebecc9d1b8228bf3da219"
             }
           }
@@ -1104,14 +1012,14 @@
           "artifact": {
             "file_name": "driving_vision_dtrv6_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV6/driving_vision_dtrv6_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DTRV6/driving_vision_dtrv6_tinygrad.pkl",
               "sha256": "48093ca913850e0547cc2b3e3e1d78807382f1532d933cfb401bd28530976b8a"
             }
           },
           "metadata": {
             "file_name": "driving_vision_dtrv6_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DTRV6/driving_vision_dtrv6_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DTRV6/driving_vision_dtrv6_metadata.pkl",
               "sha256": "08bf5d9a05096d0271065089a4ec2cf66d02dcc584b74a25d7c371b24d99aa6d"
             }
           }
@@ -1126,28 +1034,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 24,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:22:34Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_uvdtrm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/UVDTRM/driving_policy_uvdtrm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/UVDTRM/driving_policy_uvdtrm_tinygrad.pkl",
               "sha256": "fd87f961012352ba7a89e3b3743d7b8a5fdb58c05117363639054c6cfb6a03d0"
             }
           },
           "metadata": {
             "file_name": "driving_policy_uvdtrm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/UVDTRM/driving_policy_uvdtrm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/UVDTRM/driving_policy_uvdtrm_metadata.pkl",
               "sha256": "3d5ba92e3ed1fac6d16abaefbedec943758bde9e67ce2722814772680d2c3ea0"
             }
           }
@@ -1157,14 +1061,14 @@
           "artifact": {
             "file_name": "driving_vision_uvdtrm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/UVDTRM/driving_vision_uvdtrm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/UVDTRM/driving_vision_uvdtrm_tinygrad.pkl",
               "sha256": "800c3361b29dc99e3bfe33424ae37f289118fb674830d86c776fbbec75b52a77"
             }
           },
           "metadata": {
             "file_name": "driving_vision_uvdtrm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/UVDTRM/driving_vision_uvdtrm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/UVDTRM/driving_vision_uvdtrm_metadata.pkl",
               "sha256": "5b95bc9029861fe640d55b383f633b3645e596a6cbbd9e2fcbea5ce6059a1fa8"
             }
           }
@@ -1179,28 +1083,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 27,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:08:47Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_spm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPM/driving_policy_spm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SPM/driving_policy_spm_tinygrad.pkl",
               "sha256": "4fcb4852763630e951d25dcec14f2d5786f14b520c02230f705b35f51a96d96e"
             }
           },
           "metadata": {
             "file_name": "driving_policy_spm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPM/driving_policy_spm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SPM/driving_policy_spm_metadata.pkl",
               "sha256": "8e6707775e2aec3570f282a04a87a6124c1e9e02ac822b23e5c8e4463b03f1f8"
             }
           }
@@ -1210,14 +1110,14 @@
           "artifact": {
             "file_name": "driving_vision_spm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPM/driving_vision_spm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SPM/driving_vision_spm_tinygrad.pkl",
               "sha256": "689a69d2a41d588d114382785836960884b35552922acdd9656c41c98f560d53"
             }
           },
           "metadata": {
             "file_name": "driving_vision_spm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SPM/driving_vision_spm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/SPM/driving_vision_spm_metadata.pkl",
               "sha256": "12e97872de2f39aacb1172ffbda9c4aba840854080d4849d96ac5b1b7eb43295"
             }
           }
@@ -1232,28 +1132,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 28,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:09:40Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_gmv3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GMV3/driving_policy_gmv3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GMV3/driving_policy_gmv3_tinygrad.pkl",
               "sha256": "21282e2b5e2b247cbd402c24e1e716b406694fdbe811875acb6ac8f77f2b9a5d"
             }
           },
           "metadata": {
             "file_name": "driving_policy_gmv3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GMV3/driving_policy_gmv3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GMV3/driving_policy_gmv3_metadata.pkl",
               "sha256": "d26318ecc10141586147cc64390f0b2676a53fbec0b07dd094d02a8ae74af589"
             }
           }
@@ -1263,14 +1159,14 @@
           "artifact": {
             "file_name": "driving_vision_gmv3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GMV3/driving_vision_gmv3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GMV3/driving_vision_gmv3_tinygrad.pkl",
               "sha256": "c5e9e3f2847e4523c7627e3c373574f952f9722995de6163308690be91d1a230"
             }
           },
           "metadata": {
             "file_name": "driving_vision_gmv3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GMV3/driving_vision_gmv3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GMV3/driving_vision_gmv3_metadata.pkl",
               "sha256": "12e97872de2f39aacb1172ffbda9c4aba840854080d4849d96ac5b1b7eb43295"
             }
           }
@@ -1285,28 +1181,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 29,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:25:56Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_fm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FM/driving_policy_fm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/FM/driving_policy_fm_tinygrad.pkl",
               "sha256": "2e2505c324b04945b0b4e05ec7d14f5bd5d10d73bb96d7241d8bec832b9d0aaa"
             }
           },
           "metadata": {
             "file_name": "driving_policy_fm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FM/driving_policy_fm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/FM/driving_policy_fm_metadata.pkl",
               "sha256": "67bd32fd22ddb6de84fcafded4211141abf518e31b6d3a7fd24839ef5f3b6490"
             }
           }
@@ -1316,14 +1208,14 @@
           "artifact": {
             "file_name": "driving_vision_fm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FM/driving_vision_fm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/FM/driving_vision_fm_tinygrad.pkl",
               "sha256": "9d04ebd8f0c8c27bbbae8e3eb92855fdf09d898ac4ed889a9133f797c821d93a"
             }
           },
           "metadata": {
             "file_name": "driving_vision_fm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FM/driving_vision_fm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/FM/driving_vision_fm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1338,28 +1230,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 30,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:33:27Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_fbw_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FBW/driving_policy_fbw_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/FBW/driving_policy_fbw_tinygrad.pkl",
               "sha256": "2572cf6f2746ed09f192d1e8b1e0fcd40767e793b5531cda0d0579bb93c7a3f7"
             }
           },
           "metadata": {
             "file_name": "driving_policy_fbw_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FBW/driving_policy_fbw_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/FBW/driving_policy_fbw_metadata.pkl",
               "sha256": "6d2e6bb4b9cba023f38d2e5ff9dbec5302a0463907f05f601569a1dc5e46094f"
             }
           }
@@ -1369,14 +1257,14 @@
           "artifact": {
             "file_name": "driving_vision_fbw_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FBW/driving_vision_fbw_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/FBW/driving_vision_fbw_tinygrad.pkl",
               "sha256": "3958f28e2ed2cbe0d08666a2068beaf201cd9b7bbe9c2b0f3b7422ae093bd3d0"
             }
           },
           "metadata": {
             "file_name": "driving_vision_fbw_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/FBW/driving_vision_fbw_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/FBW/driving_vision_fbw_metadata.pkl",
               "sha256": "17679e8f8374e47b84d580f92a56052a29cc889c97915fbb429852a7474bde6c"
             }
           }
@@ -1391,28 +1279,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 31,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:17:33Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_nm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NM/driving_policy_nm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/NM/driving_policy_nm_tinygrad.pkl",
               "sha256": "144aa899a8f12c342ef30fa37fba8750c7e5eaa17a26dc6eef4da10588fbc86f"
             }
           },
           "metadata": {
             "file_name": "driving_policy_nm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NM/driving_policy_nm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/NM/driving_policy_nm_metadata.pkl",
               "sha256": "281d0ad7fe5d3ad1391498ebb4915ca77e38a3d41144f92a117f4d8a4b6ee3b2"
             }
           }
@@ -1422,14 +1306,14 @@
           "artifact": {
             "file_name": "driving_vision_nm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NM/driving_vision_nm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/NM/driving_vision_nm_tinygrad.pkl",
               "sha256": "4b50e3a4e2fde5ce147675a090a876d5d103e8da6dc2c7cfed6c2effd59358db"
             }
           },
           "metadata": {
             "file_name": "driving_vision_nm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NM/driving_vision_nm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/NM/driving_vision_nm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1444,28 +1328,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 32,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:56:47Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_gwmv5_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV5/driving_policy_gwmv5_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV5/driving_policy_gwmv5_tinygrad.pkl",
               "sha256": "c68638dfd6f4278ab0d458b29cb9fd0529b2d0bf239ff43bc0bfca030da9e060"
             }
           },
           "metadata": {
             "file_name": "driving_policy_gwmv5_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV5/driving_policy_gwmv5_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV5/driving_policy_gwmv5_metadata.pkl",
               "sha256": "70f1e31801cfb40d7192d5ea5f2f7209cd5a309e9b06cdf408223d402144343c"
             }
           }
@@ -1475,14 +1355,14 @@
           "artifact": {
             "file_name": "driving_vision_gwmv5_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV5/driving_vision_gwmv5_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV5/driving_vision_gwmv5_tinygrad.pkl",
               "sha256": "8d5c70c7c1ede80388fa2e903fccccf61ea2b1fa550d552d2cbb85f0847affb8"
             }
           },
           "metadata": {
             "file_name": "driving_vision_gwmv5_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV5/driving_vision_gwmv5_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV5/driving_vision_gwmv5_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1497,28 +1377,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 33,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:00:09Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_gwmv6_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV6/driving_policy_gwmv6_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV6/driving_policy_gwmv6_tinygrad.pkl",
               "sha256": "fb5bf11cbe5d68302dda29cc0fe965a3b71a0fcdc7729577008c0ed794199782"
             }
           },
           "metadata": {
             "file_name": "driving_policy_gwmv6_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV6/driving_policy_gwmv6_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV6/driving_policy_gwmv6_metadata.pkl",
               "sha256": "6d275bb87069b79f3ef48abc4f1d2bbcafa79627c2752bfb483c44c6dc6c00a8"
             }
           }
@@ -1528,14 +1404,14 @@
           "artifact": {
             "file_name": "driving_vision_gwmv6_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV6/driving_vision_gwmv6_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV6/driving_vision_gwmv6_tinygrad.pkl",
               "sha256": "f6778d5368449173f5de97726db1fd4aae84c2859b154ae0117a0890b4128506"
             }
           },
           "metadata": {
             "file_name": "driving_vision_gwmv6_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV6/driving_vision_gwmv6_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV6/driving_vision_gwmv6_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1550,28 +1426,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 34,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:21:45Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_gwmv8_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV8/driving_policy_gwmv8_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV8/driving_policy_gwmv8_tinygrad.pkl",
               "sha256": "e1a0674b2d5914312748bc42cadd639956591fc26fb54650386392df785a7ce0"
             }
           },
           "metadata": {
             "file_name": "driving_policy_gwmv8_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV8/driving_policy_gwmv8_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV8/driving_policy_gwmv8_metadata.pkl",
               "sha256": "7c857f528e35f4f4e66398b8d0fba61fdfaaf82ee242496d4fcd0db88165452a"
             }
           }
@@ -1581,14 +1453,14 @@
           "artifact": {
             "file_name": "driving_vision_gwmv8_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV8/driving_vision_gwmv8_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV8/driving_vision_gwmv8_tinygrad.pkl",
               "sha256": "4a92cfdc10623617a42e74bcb40f8f08aa7925464b0bf89c9e2ba49995afcdd5"
             }
           },
           "metadata": {
             "file_name": "driving_vision_gwmv8_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV8/driving_vision_gwmv8_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV8/driving_vision_gwmv8_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1603,28 +1475,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 35,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:35:35Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tcpm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCP/driving_policy_tcpm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCP/driving_policy_tcpm_tinygrad.pkl",
               "sha256": "32eee029b9eb1a28800e7f1e0f973972468a01222f4f45130ebed3711a90799f"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tcpm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCP/driving_policy_tcpm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCP/driving_policy_tcpm_metadata.pkl",
               "sha256": "324e3e1f83b0fe7158f75083e3aa9b630d0bf03f1a14b261e1cbc14dbcedc805"
             }
           }
@@ -1634,14 +1502,14 @@
           "artifact": {
             "file_name": "driving_vision_tcpm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCP/driving_vision_tcpm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCP/driving_vision_tcpm_tinygrad.pkl",
               "sha256": "865ddbaf1afbfbff0e496035acdc7c302aeb6ff0c5556a3651d41ec25ae23c11"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tcpm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCP/driving_vision_tcpm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCP/driving_vision_tcpm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1656,28 +1524,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 36,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:37:38Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_nnm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNM/driving_policy_nnm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NNM/driving_policy_nnm_tinygrad.pkl",
               "sha256": "b1c92900157c94313760c1cf7e68ab33c65f86c094e67979729153244a5c8737"
             }
           },
           "metadata": {
             "file_name": "driving_policy_nnm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNM/driving_policy_nnm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NNM/driving_policy_nnm_metadata.pkl",
               "sha256": "b6da000578015087cec30491365f2eff0759d8581664bd44b1a3dbdbe1d4b2da"
             }
           }
@@ -1687,14 +1551,14 @@
           "artifact": {
             "file_name": "driving_vision_nnm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNM/driving_vision_nnm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NNM/driving_vision_nnm_tinygrad.pkl",
               "sha256": "82d50f8f46119b543af1f25d9c05eb6922be565d904d2cc65774ea64b7c44b26"
             }
           },
           "metadata": {
             "file_name": "driving_vision_nnm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNM/driving_vision_nnm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NNM/driving_vision_nnm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1709,28 +1573,24 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 37,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:18:16Z",
-      "overrides": {
-        "folder": "Release Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Release Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_nnmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNMV2/driving_policy_nnmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/NNMV2/driving_policy_nnmv2_tinygrad.pkl",
               "sha256": "47546dc2f434f13251eec8cdf14412ba987a06dd8a1e05e10b6220ea92cd7e27"
             }
           },
           "metadata": {
             "file_name": "driving_policy_nnmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNMV2/driving_policy_nnmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/NNMV2/driving_policy_nnmv2_metadata.pkl",
               "sha256": "aed596d1ea2024bfd320a8b73c2ae06cf876b9383103c40a0686dda5aa4f5947"
             }
           }
@@ -1740,14 +1600,14 @@
           "artifact": {
             "file_name": "driving_vision_nnmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNMV2/driving_vision_nnmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/NNMV2/driving_vision_nnmv2_tinygrad.pkl",
               "sha256": "e6950a427d39831fa761c951a4df4dca188402faf227d6a0b0baf21df95c3f5c"
             }
           },
           "metadata": {
             "file_name": "driving_vision_nnmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NNMV2/driving_vision_nnmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/NNMV2/driving_vision_nnmv2_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1762,28 +1622,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 38,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:26:13Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_nid_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NID/driving_vision_nid_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NID/driving_vision_nid_tinygrad.pkl",
               "sha256": "aaef26f2a385259c3bd1c0efe90386d413ab225d546f757c10bb5a2c7be10ce6"
             }
           },
           "metadata": {
             "file_name": "driving_vision_nid_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NID/driving_vision_nid_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NID/driving_vision_nid_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1793,14 +1649,14 @@
           "artifact": {
             "file_name": "driving_policy_nid_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NID/driving_policy_nid_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NID/driving_policy_nid_tinygrad.pkl",
               "sha256": "99159ef37b8a006535cba55b41759a62a711e29a8509a343000ea87964a9f659"
             }
           },
           "metadata": {
             "file_name": "driving_policy_nid_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NID/driving_policy_nid_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NID/driving_policy_nid_metadata.pkl",
               "sha256": "14bebf8e4c68d0a8c7a8c6876edcf31ace8e58a762573de4aeee430ae41777cf"
             }
           }
@@ -1815,28 +1671,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 39,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:07:18Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_tcpmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV2/driving_vision_tcpmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCPMV2/driving_vision_tcpmv2_tinygrad.pkl",
               "sha256": "d689e13121f7bf22dcd6c6b43cb63d1e39118603a11a82c262f50425571c0c69"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tcpmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV2/driving_vision_tcpmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCPMV2/driving_vision_tcpmv2_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1846,14 +1698,14 @@
           "artifact": {
             "file_name": "driving_policy_tcpmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV2/driving_policy_tcpmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCPMV2/driving_policy_tcpmv2_tinygrad.pkl",
               "sha256": "7885f39b1cce27220f71f187f29375b35e0e76107602aef2a166291f090244c6"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tcpmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV2/driving_policy_tcpmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/TCPMV2/driving_policy_tcpmv2_metadata.pkl",
               "sha256": "324e3e1f83b0fe7158f75083e3aa9b630d0bf03f1a14b261e1cbc14dbcedc805"
             }
           }
@@ -1868,28 +1720,24 @@
       "environment": "release",
       "runner": "tinygrad",
       "index": 40,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:31:09Z",
-      "overrides": {
-        "folder": "Release Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Release Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_tcpmv3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV3/driving_policy_tcpmv3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/TCPMV3/driving_policy_tcpmv3_tinygrad.pkl",
               "sha256": "96081db4be528d96ee82874659fe449f179fdd175de43dc3a421fcf0ef89a13b"
             }
           },
           "metadata": {
             "file_name": "driving_policy_tcpmv3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV3/driving_policy_tcpmv3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/TCPMV3/driving_policy_tcpmv3_metadata.pkl",
               "sha256": "97fd579505c1308ff8091f141a93d2471e7366e04054137db7d83ffca9b9503f"
             }
           }
@@ -1899,14 +1747,14 @@
           "artifact": {
             "file_name": "driving_vision_tcpmv3_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV3/driving_vision_tcpmv3_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/TCPMV3/driving_vision_tcpmv3_tinygrad.pkl",
               "sha256": "de7509a6aa4df0f85740f3f61a6cac9db63b49a84e3760156a55e7ee4153140e"
             }
           },
           "metadata": {
             "file_name": "driving_vision_tcpmv3_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/TCPMV3/driving_vision_tcpmv3_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Release%20Models/TCPMV3/driving_vision_tcpmv3_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1921,28 +1769,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 41,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:12:25Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_gwmv9_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV9/driving_policy_gwmv9_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV9/driving_policy_gwmv9_tinygrad.pkl",
               "sha256": "4413795336960c0c13e05d2458bba359d389e12ec44360e6a3bc3787607a50f6"
             }
           },
           "metadata": {
             "file_name": "driving_policy_gwmv9_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV9/driving_policy_gwmv9_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV9/driving_policy_gwmv9_metadata.pkl",
               "sha256": "fe1250c3149ed6c832927751007f868c86b17c87ab95ae0dcacd5aa81f026d5a"
             }
           }
@@ -1952,14 +1796,14 @@
           "artifact": {
             "file_name": "driving_vision_gwmv9_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV9/driving_vision_gwmv9_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV9/driving_vision_gwmv9_tinygrad.pkl",
               "sha256": "29fcab4eb1d98017726f3f4bec11c5ae8b07439147223579291dfbc2dc081321"
             }
           },
           "metadata": {
             "file_name": "driving_vision_gwmv9_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/GWMV9/driving_vision_gwmv9_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/GWMV9/driving_vision_gwmv9_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -1974,28 +1818,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 42,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:47:27Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_cgwm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CGWM/driving_policy_cgwm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/CGWM/driving_policy_cgwm_tinygrad.pkl",
               "sha256": "e78080ac36e1fbdfaa756415c7bb1ec8650d8088dbe3b7039e0d0db9795aa1c7"
             }
           },
           "metadata": {
             "file_name": "driving_policy_cgwm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CGWM/driving_policy_cgwm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/CGWM/driving_policy_cgwm_metadata.pkl",
               "sha256": "501b5f23ff302a7dbb510a1c01466391975705288697cb077166cb548b1b39ec"
             }
           }
@@ -2005,14 +1845,14 @@
           "artifact": {
             "file_name": "driving_vision_cgwm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CGWM/driving_vision_cgwm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/CGWM/driving_vision_cgwm_tinygrad.pkl",
               "sha256": "2bfd3560510ab99a3b08938545ecd6432f374833cf58ce30574abc2c1d26093a"
             }
           },
           "metadata": {
             "file_name": "driving_vision_cgwm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/CGWM/driving_vision_cgwm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/CGWM/driving_vision_cgwm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -2027,28 +1867,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 43,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:44:55Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_ndm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDM/driving_vision_ndm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDM/driving_vision_ndm_tinygrad.pkl",
               "sha256": "a132ab57089da58ad149131a8ad135d8036274793d013eded1cc9baddd1323bc"
             }
           },
           "metadata": {
             "file_name": "driving_vision_ndm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDM/driving_vision_ndm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDM/driving_vision_ndm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -2058,14 +1894,14 @@
           "artifact": {
             "file_name": "driving_policy_ndm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDM/driving_policy_ndm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDM/driving_policy_ndm_tinygrad.pkl",
               "sha256": "b0b0cea82cb8e09ce705e6a154df2dbbf121f2adc972d2446e8cb20e687e0915"
             }
           },
           "metadata": {
             "file_name": "driving_policy_ndm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDM/driving_policy_ndm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDM/driving_policy_ndm_metadata.pkl",
               "sha256": "97fd579505c1308ff8091f141a93d2471e7366e04054137db7d83ffca9b9503f"
             }
           }
@@ -2080,28 +1916,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 44,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:40:38Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "vision",
           "artifact": {
             "file_name": "driving_vision_ndmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDMV2/driving_vision_ndmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDMV2/driving_vision_ndmv2_tinygrad.pkl",
               "sha256": "e2409c021ee2e2a7ced2e4966327a5fb53d0cf7ec1b78d01dab1c8c456cab891"
             }
           },
           "metadata": {
             "file_name": "driving_vision_ndmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDMV2/driving_vision_ndmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDMV2/driving_vision_ndmv2_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -2111,14 +1943,14 @@
           "artifact": {
             "file_name": "driving_policy_ndmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDMV2/driving_policy_ndmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDMV2/driving_policy_ndmv2_tinygrad.pkl",
               "sha256": "3cb836a67abd550049e45c92be1bd56a10507ce6a5977aa00c0e074b9fe8f568"
             }
           },
           "metadata": {
             "file_name": "driving_policy_ndmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/NDMV2/driving_policy_ndmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/NDMV2/driving_policy_ndmv2_metadata.pkl",
               "sha256": "97fd579505c1308ff8091f141a93d2471e7366e04054137db7d83ffca9b9503f"
             }
           }
@@ -2133,28 +1965,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 45,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:13:15Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_pm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PM/driving_policy_pm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PM/driving_policy_pm_tinygrad.pkl",
               "sha256": "fdc3e5fbbe487d5e4cb9d904e5e746873106013c97d3d6135b4e256117e093cd"
             }
           },
           "metadata": {
             "file_name": "driving_policy_pm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PM/driving_policy_pm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PM/driving_policy_pm_metadata.pkl",
               "sha256": "b98063969a89db08e719cf9bf4443441f40353b5b9d7d43f5a9ccca770e2cdc3"
             }
           }
@@ -2164,14 +1992,14 @@
           "artifact": {
             "file_name": "driving_vision_pm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PM/driving_vision_pm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PM/driving_vision_pm_tinygrad.pkl",
               "sha256": "e89d8fdac8bb5a5d9cff6d1e140bfc66e07f938d55ca0386d3c0fbba281b754d"
             }
           },
           "metadata": {
             "file_name": "driving_vision_pm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PM/driving_vision_pm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PM/driving_vision_pm_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -2186,28 +2014,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 46,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:53:33Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_dsm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSM/driving_policy_dsm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSM/driving_policy_dsm_tinygrad.pkl",
               "sha256": "19c2b194c88cd3e19f930ffaf08eb27a7f3f0a7fcc72c4f12af4fe6e2dd8aae1"
             }
           },
           "metadata": {
             "file_name": "driving_policy_dsm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSM/driving_policy_dsm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSM/driving_policy_dsm_metadata.pkl",
               "sha256": "3dea30b0275ebe66f361b76254264f6add80634b4ad7819e4406ff1f57bc29d9"
             }
           }
@@ -2217,14 +2041,14 @@
           "artifact": {
             "file_name": "driving_vision_dsm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSM/driving_vision_dsm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSM/driving_vision_dsm_tinygrad.pkl",
               "sha256": "3f1194259cc1c2671615aa2b6ee26b08e64923a7fd2fc79581abf16f2297cd72"
             }
           },
           "metadata": {
             "file_name": "driving_vision_dsm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSM/driving_vision_dsm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSM/driving_vision_dsm_metadata.pkl",
               "sha256": "58cba021537117dfb87b479356fd526c4bb54b46aa316e364f585129a191f5b2"
             }
           }
@@ -2239,28 +2063,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 47,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:46:25Z",
-      "overrides": {
-        "folder": "2025 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2025 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_planplus_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PLANPLUSV2/driving_policy_planplus_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PLANPLUSV2/driving_policy_planplus_tinygrad.pkl",
               "sha256": "cc0dbc250ddd160caad277722cfd76ac629f4e4465a22eca0cabc00805035b8f"
             }
           },
           "metadata": {
             "file_name": "driving_policy_planplus_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PLANPLUSV2/driving_policy_planplus_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PLANPLUSV2/driving_policy_planplus_metadata.pkl",
               "sha256": "b98063969a89db08e719cf9bf4443441f40353b5b9d7d43f5a9ccca770e2cdc3"
             }
           }
@@ -2270,14 +2090,14 @@
           "artifact": {
             "file_name": "driving_vision_planplus_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PLANPLUSV2/driving_vision_planplus_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PLANPLUSV2/driving_vision_planplus_tinygrad.pkl",
               "sha256": "7c49b99288a32787f0420950605579203386e129e3872ab35a36750147a9c576"
             }
           },
           "metadata": {
             "file_name": "driving_vision_planplus_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/PLANPLUSV2/driving_vision_planplus_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2025%20World%20Models/PLANPLUSV2/driving_vision_planplus_metadata.pkl",
               "sha256": "ec842483cbd798b9f97f6a36a686e46d4f995eb9fa6f83455bb02e9210a02d69"
             }
           }
@@ -2292,28 +2112,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 48,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:01:04Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_dsmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSMV2/driving_policy_dsmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSMV2/driving_policy_dsmv2_tinygrad.pkl",
               "sha256": "61cc94d1b6efa7722af4313dfd56b3644008262c23da214332929aaee8a3e734"
             }
           },
           "metadata": {
             "file_name": "driving_policy_dsmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSMV2/driving_policy_dsmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSMV2/driving_policy_dsmv2_metadata.pkl",
               "sha256": "c7d95406d66e129859cffec59f179fd5bc1eca6941211b11f589bfe424dc9cf1"
             }
           }
@@ -2323,14 +2139,14 @@
           "artifact": {
             "file_name": "driving_vision_dsmv2_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSMV2/driving_vision_dsmv2_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSMV2/driving_vision_dsmv2_tinygrad.pkl",
               "sha256": "3c8c64da0113b5df01a73beac0d74c6f92de3ce3a18b93b4d90a76752066c87b"
             }
           },
           "metadata": {
             "file_name": "driving_vision_dsmv2_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/DSMV2/driving_vision_dsmv2_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/DSMV2/driving_vision_dsmv2_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2345,28 +2161,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 49,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T20:34:34Z",
-      "overrides": {
-        "folder": "2026 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2026 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_mm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/MM/driving_policy_mm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/MM/driving_policy_mm_tinygrad.pkl",
               "sha256": "0460d74c5894e72cac1d12741f2a65ce2cb067b629cd9b5260e640cf442c9737"
             }
           },
           "metadata": {
             "file_name": "driving_policy_mm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/MM/driving_policy_mm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/MM/driving_policy_mm_metadata.pkl",
               "sha256": "f300f1ce0206710bd842ac7f3dba7f82a5fb5d9ee397d7e4ca7a93d2ab5c1161"
             }
           }
@@ -2376,14 +2188,14 @@
           "artifact": {
             "file_name": "driving_vision_mm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/MM/driving_vision_mm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/MM/driving_vision_mm_tinygrad.pkl",
               "sha256": "2fbccca0d339855055218b94a14bd906546064d335fbcf07b710e8af0a22eebe"
             }
           },
           "metadata": {
             "file_name": "driving_vision_mm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/MM/driving_vision_mm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/MM/driving_vision_mm_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2398,28 +2210,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 50,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:59:34Z",
-      "overrides": {
-        "folder": "2026 World Models",
-        "lat": ".1",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2026 World Models", "lat": ".1", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_wmiv9_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV9/driving_policy_wmiv9_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/WMIV9/driving_policy_wmiv9_tinygrad.pkl",
               "sha256": "c1c0a5df695b91878677b3034ad801441c7e0d31e50c04a9e00dfe8aaecbbf74"
             }
           },
           "metadata": {
             "file_name": "driving_policy_wmiv9_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV9/driving_policy_wmiv9_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/WMIV9/driving_policy_wmiv9_metadata.pkl",
               "sha256": "9225018f7c5ef3625ce4588bbb194f3060508f4e55ef23199cd101142c6577cf"
             }
           }
@@ -2429,14 +2237,14 @@
           "artifact": {
             "file_name": "driving_vision_wmiv9_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV9/driving_vision_wmiv9_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/WMIV9/driving_vision_wmiv9_tinygrad.pkl",
               "sha256": "8ffc7950203428657c3964b9c7b2ce7b4f93677995546c70c9c38d0ce95fd66d"
             }
           },
           "metadata": {
             "file_name": "driving_vision_wmiv9_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV9/driving_vision_wmiv9_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/WMIV9/driving_vision_wmiv9_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2451,28 +2259,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 51,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:50:45Z",
-      "overrides": {
-        "folder": "2026 World Models",
-        "lat": ".0",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2026 World Models", "lat": ".0", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_scm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SCM/driving_policy_scm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/SCM/driving_policy_scm_tinygrad.pkl",
               "sha256": "30c51b155cdbb10a88ea55d1d83f5a31fa479c0c9e3b012fba700556838933de"
             }
           },
           "metadata": {
             "file_name": "driving_policy_scm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SCM/driving_policy_scm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/SCM/driving_policy_scm_metadata.pkl",
               "sha256": "ad3c6eac0e82aebf9473e4b54c225b8f8f46cc1b3cade20742589b2b8e9e0eba"
             }
           }
@@ -2482,14 +2286,14 @@
           "artifact": {
             "file_name": "driving_vision_scm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SCM/driving_vision_scm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/SCM/driving_vision_scm_tinygrad.pkl",
               "sha256": "13304260189c4b4960de8bdf6d1aedbc074ddde1c8c2f73182684fc4146598f3"
             }
           },
           "metadata": {
             "file_name": "driving_vision_scm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/SCM/driving_vision_scm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/SCM/driving_vision_scm_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2504,28 +2308,24 @@
       "environment": "master",
       "runner": "tinygrad",
       "index": 52,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T19:55:52Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".0",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".0", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_wmiv12_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV12/driving_policy_wmiv12_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/WMIV12/driving_policy_wmiv12_tinygrad.pkl",
               "sha256": "9a7aa6d3669ccb7883319d997e0d4dc93a08c374eb5fb0d0c4e87f782a4a20a2"
             }
           },
           "metadata": {
             "file_name": "driving_policy_wmiv12_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV12/driving_policy_wmiv12_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/WMIV12/driving_policy_wmiv12_metadata.pkl",
               "sha256": "15c8c1ad9073424ee1101b1f7170421140ed308ebaa7c917001130fb1760420b"
             }
           }
@@ -2535,14 +2335,14 @@
           "artifact": {
             "file_name": "driving_vision_wmiv12_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV12/driving_vision_wmiv12_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/WMIV12/driving_vision_wmiv12_tinygrad.pkl",
               "sha256": "68feed63db4f41630da311807fc9242125b47be05a1f7f94b01c4a21f095bc22"
             }
           },
           "metadata": {
             "file_name": "driving_vision_wmiv12_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/WMIV12/driving_vision_wmiv12_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/WMIV12/driving_vision_wmiv12_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2557,28 +2357,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 53,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T21:58:42Z",
-      "overrides": {
-        "folder": "Master Models",
-        "lat": ".0",
-        "long": ".3"
-      },
+      "overrides": { "folder": "Master Models", "lat": ".0", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_c210m_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/C210M/driving_policy_c210m_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/C210M/driving_policy_c210m_tinygrad.pkl",
               "sha256": "05c9ba53a525c54f047833c63cc5ad97f984abde0220e56e60907b61c9471bfc"
             }
           },
           "metadata": {
             "file_name": "driving_policy_c210m_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/C210M/driving_policy_c210m_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/C210M/driving_policy_c210m_metadata.pkl",
               "sha256": "15c8c1ad9073424ee1101b1f7170421140ed308ebaa7c917001130fb1760420b"
             }
           }
@@ -2588,14 +2384,14 @@
           "artifact": {
             "file_name": "driving_vision_c210m_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/C210M/driving_vision_c210m_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/C210M/driving_vision_c210m_tinygrad.pkl",
               "sha256": "7e623bca3e691e6a26d8f93005d21c43b3a7dedb259ed79f177231d57f3903c4"
             }
           },
           "metadata": {
             "file_name": "driving_vision_c210m_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/C210M/driving_vision_c210m_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/Master%20Models/C210M/driving_vision_c210m_metadata.pkl",
               "sha256": "a2be39088d38550e818f5ac1c6300a64605ba0bd0676a27fe7bbea9fddae90a1"
             }
           }
@@ -2610,28 +2406,24 @@
       "environment": "development",
       "runner": "tinygrad",
       "index": 54,
-      "minimum_selector_version": "14",
+      "minimum_selector_version": "1",
       "generation": "12",
       "build_time": "2026-02-12T22:40:29Z",
-      "overrides": {
-        "folder": "2026 World Models",
-        "lat": ".0",
-        "long": ".3"
-      },
+      "overrides": { "folder": "2026 World Models", "lat": ".0", "long": ".3" },
       "models": [
         {
           "type": "policy",
           "artifact": {
             "file_name": "driving_policy_opm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_policy_opm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_policy_opm_tinygrad.pkl",
               "sha256": "0f9517878e31f606e1fce6e951ce529748218a05145ba3c0806eeb974d5df60f"
             }
           },
           "metadata": {
             "file_name": "driving_policy_opm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_policy_opm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_policy_opm_metadata.pkl",
               "sha256": "7262de6bfe13cfa79ebd7c194553f8f8016453f4876a8a70ab4f2cceae4c51a4"
             }
           }
@@ -2641,14 +2433,14 @@
           "artifact": {
             "file_name": "driving_vision_opm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_vision_opm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_vision_opm_tinygrad.pkl",
               "sha256": "5543a369c2e755cc85c1b20582fc329049d2b4bd96e164f1e46142cac943bfd9"
             }
           },
           "metadata": {
             "file_name": "driving_vision_opm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_vision_opm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_vision_opm_metadata.pkl",
               "sha256": "69dc464b34315140883042a85d7abc0d3bcf4e452e7c85c6b004248670090deb"
             }
           }
@@ -2658,14 +2450,14 @@
           "artifact": {
             "file_name": "driving_off_policy_opm_tinygrad.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_off_policy_opm_tinygrad.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_off_policy_opm_tinygrad.pkl",
               "sha256": "54cfcdfca1b600427d1eeaefc757bff25c4b9d4299002f3b88b7bdf4edbb0d93"
             }
           },
           "metadata": {
             "file_name": "driving_off_policy_opm_metadata.pkl",
             "download_uri": {
-              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/recompiled/OPM/driving_off_policy_opm_metadata.pkl",
+              "url": "https://huggingface.co/hoofpilot/models-lfs/resolve/main/models/2026%20World%20Models/OPM/driving_off_policy_opm_metadata.pkl",
               "sha256": "3db8ece563b18e162d3105d460d66bd1e81179b406f434a2ed35702b15b8e8eb"
             }
           }
